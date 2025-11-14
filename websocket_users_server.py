@@ -10,7 +10,7 @@ async def echo(websocket: ServerConnection):
         print(f"Получено сообщение: {message}")
         response = f"Получено сообщение от пользователя: {message}"
         for i in range(1,6):
-            await websocket.send(f"{i} Сообщение пользователя: {response}")  # Отправляем ответ
+            await websocket.send(f"{i} Сообщение пользователя:  {response}")  # Отправляем ответ
 
 
 # Запуск WebSocket-сервера на порту 8765
