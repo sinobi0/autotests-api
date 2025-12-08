@@ -1,5 +1,5 @@
-from clients.courses.courses_client import get_courses_client, CreateCourseRequestDict
-from clients.exercises.exercises_client import get_exercises_client, CreateExerciseRequestDict
+from clients.courses.courses_client import get_courses_client, CreateCourseRequestSchema
+from clients.exercises.exercises_client import get_exercises_client, CreateExerciseRequestSchema
 from clients.files.files_client import get_files_client, CreateFileRequestSchema
 from clients.private_http_builder import AuthenticationUserSchema
 from clients.users.public_users_client import get_public_users_client, CreateUserRequestSchema
@@ -36,26 +36,28 @@ create_file_response = files_client.create_file(create_file_req)
 print(f"Данные созданного файла: {create_file_response}")
 
 #Создаем курс
-create_course_req = CreateCourseRequestDict(
+create_course_req = CreateCourseRequestSchema(
     title="MyCourse",
-    maxScore=100,
-    minScore=10,
+    max_score=100,
+    min_score=10,
     description="test",
-    estimatedTime="115",
-    previewFileId=create_file_response.file.id,
-    createdByUserId=create_user_response.user.id
+    estimated_time="115",
+    preview_file_id=create_file_response.file.id,
+    created_by_user_id=create_user_response.user.id
 )
 create_course_response = courses_client.create_course(create_course_req)
 print(f"Данные созданного курса: {create_course_response}")
 
 #Создаем задание
-create_exercise_req = CreateExerciseRequestDict(
+create_exercise_req = CreateExerciseRequestSchema(
     title="MyExercise",
-    courseId=create_course_response['course']['id'],
-    maxScore=100,
-    minScore=10,
+    course_id=create_course_response.course.id,
+    max_score=100,
+    min_score=10,
     description="test",
-    estimatedTime="115"
+    order_index="123",
+    estimated_time="115"
 )
 create_exercise_response = exercises_client.create_exercise(create_exercise_req)
+print(f"Данные запроса: {create_exercise_req}")
 print(f"Данные созданного упражнения: {create_exercise_response}")
