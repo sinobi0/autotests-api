@@ -1,8 +1,8 @@
 import httpx
-from tools.fakers import get_random_email
+from tools.fakers import fake
 #Создаем нового пользователя
 payload_create_user = {
-  "email": get_random_email(),
+  "email": fake.email(),
   "password": "string",
   "lastName": "string",
   "firstName": "string",
@@ -25,7 +25,7 @@ login_data = login.json()
 #Меняем данные пользователя
 headers_change_user = {"Authorization": f"Bearer {login_data['token']['accessToken']}"}
 payload_change_user = {
-    "email": get_random_email(),
+    "email": fake.email(),
     "password": payload_create_user["password"],
     "lastName": "Test",
     "firstName": "User",
