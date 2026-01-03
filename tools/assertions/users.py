@@ -1,4 +1,5 @@
-from clients.users.users_schema import CreateUserRequestSchema, CreateUserResponseSchema, UserSchema
+from clients.users.users_schema import CreateUserRequestSchema, CreateUserResponseSchema, UserSchema, \
+    GetUserResponseSchema
 from tools.assertions.base import assert_equal
 
 
@@ -28,11 +29,11 @@ def assert_user(actual: UserSchema, expected: UserSchema):
     assert_equal(actual.first_name, expected.first_name, "first_name")
     assert_equal(actual.middle_name, expected.middle_name, "middle_name")
 
-def assert_get_user_response(get_user_response: UserSchema, create_user_response: UserSchema):
+def assert_get_user_response(get_user_response: GetUserResponseSchema, create_user_response: CreateUserResponseSchema):
     """
     Проверяет, что ответ на получение пользователя совпадает с ответом на создание пользователя
     :param get_user_response: pydantic объект ответа на запрос получения пользователя
     :param create_user_response: pydantic объект ответа на запрос создания пользователя
-    :return:
+    :return:AssertionError: Если хотя бы одно поле не совпадает
     """
-    assert_user(get_user_response, create_user_response)
+    assert_user(get_user_response.user, create_user_response.user)

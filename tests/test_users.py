@@ -1,15 +1,11 @@
 from http import HTTPStatus
 import pytest
-from clients.authentication.authentication_client import AuthenticationClient
-from clients.authentication.authentication_schema import LoginRequestSchema
 from clients.users.private_users_client import PrivateUsersClient
-from clients.users.public_users_client import get_public_users_client, PublicUsersClient
-from clients.users.users_schema import CreateUserRequestSchema, CreateUserResponseSchema, UserSchema, \
-    GetUserResponseSchema
-from tests.conftest import UserFixture
+from clients.users.public_users_client import PublicUsersClient
+from clients.users.users_schema import CreateUserRequestSchema, CreateUserResponseSchema, GetUserResponseSchema
+from fixtures.users import UserFixture  # Заменяем импорт
 from tools.assertions.base import assert_status_code
 from tools.assertions.schema import validate_json_schema
-# Импортируем функцию для проверки ответа создания юзера
 from tools.assertions.users import assert_create_user_response, assert_get_user_response
 
 
@@ -36,7 +32,7 @@ def test_get_user_me(
     get_users_me_response = private_users_client.get_user_me_api()
     get_users_me_response_data = GetUserResponseSchema.model_validate_json(get_users_me_response.text)
     assert_status_code(get_users_me_response.status_code, HTTPStatus.OK)
-    assert_get_user_response(get_users_me_response_data.user, function_user.response.user)
+    assert_get_user_response(get_users_me_response_data, function_user.response)
     validate_json_schema(get_users_me_response.json(), get_users_me_response_data.model_json_schema())
 
 
