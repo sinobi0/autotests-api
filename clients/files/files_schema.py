@@ -12,6 +12,11 @@ class FileSchema(BaseModel):
     filename: str
     directory: str
 
+class GetFileResponseSchema(BaseModel):
+    """
+    Описание структуры запроса получения файла.
+    """
+    file: FileSchema
 
 class CreateFileRequestSchema(BaseModel):
     """
