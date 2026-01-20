@@ -2,7 +2,8 @@ from http import HTTPStatus
 import pytest
 from clients.files.files_schema import GetFileResponseSchema
 from fixtures.files import FileFixture
-from tools.assertions.files import assert_get_file_response, assert_file_not_found_response
+from tools.assertions.files import assert_get_file_response, assert_file_not_found_response, \
+    assert_get_file_with_incorrect_file_id_response
 from clients.errors_schema import ValidationErrorResponseSchema, InternalErrorResponseSchema
 from clients.files.files_client import FilesClient
 from clients.files.files_schema import CreateFileRequestSchema, CreateFileResponseSchema
@@ -83,3 +84,15 @@ class TestFiles:
 
         # 6. Проверяем, что ответ соответствует схеме
         validate_json_schema(get_response.json(), get_response_data.model_json_schema())
+
+    def test_get_file_with_incorrect_file_id(self, files_client: FilesClient, function_file: FileFixture):
+        # 1. Получаем файл по некорректному file_id
+        response = files_client.get_file_api("incorrect-file-id")
+        response_data = ValidationErrorResponseSchema.model_validate_json(response.text)
+        # 2. Проверяем, что файл не получен (статус 422)
+        assert_status_code(response.status_code, HTTPStatus.UNPROCESSABLE_ENTITY)
+        # 3. Проверяем, что тело ошибки соответствует ожидаемой
+        assert_get_file_with_incorrect_file_id_response(response_data)
+        # 4. Проверяем, что ответ соответствует схеме
+        validate_json_schema(response.json(), response_data.model_json_schema())
+
