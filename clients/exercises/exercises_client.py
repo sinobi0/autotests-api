@@ -13,7 +13,7 @@ class ExercisesClient(APIClient):
         :param request: словарь с courseId
         :return: Ответ от сервера в виде объекта httpx.Response
         """
-        return self.get("/api/v1/exercises",json=request.model_dump(by_alias=True))
+        return self.get("/api/v1/exercises",params=request.model_dump(by_alias=True))
 
     def get_exercise_api(self, exercise_id: str) -> Response:
         """
