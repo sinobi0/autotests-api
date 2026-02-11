@@ -1,12 +1,18 @@
 from http import HTTPStatus
 
+import allure
 import pytest
+from allure_commons.types import Severity
 
 from clients.courses.courses_client import CoursesClient
 from clients.courses.courses_schema import UpdateCourseRequestSchema, UpdateCourseResponseSchema, GetCoursesQuerySchema, \
     GetCoursesResponseSchema
 from fixtures.courses import CourseFixture
 from fixtures.users import UserFixture
+from tools.allure.epics import AllureEpic
+from tools.allure.features import AllureFeature
+from tools.allure.stories import AllureStory
+from tools.allure.tags import AllureTag
 from tools.assertions.base import assert_status_code
 from tools.assertions.courses import assert_update_course_response, assert_get_courses_response
 from tools.assertions.schema import validate_json_schema
@@ -14,7 +20,14 @@ from tools.assertions.schema import validate_json_schema
 
 @pytest.mark.courses
 @pytest.mark.regression
+@allure.tag(AllureTag.COURSES, AllureTag.REGRESSION)  # Добавили теги
+@allure.epic(AllureEpic.LMS)
+@allure.feature(AllureFeature.COURSES)
 class TestCourses:
+    @allure.tag(AllureTag.GET_ENTITIES)
+    @allure.story(AllureStory.GET_ENTITIES)
+    @allure.title("Get courses")  # Добавили заголовок
+    @allure.severity(Severity.BLOCKER)  # Добавили severity
     def test_get_courses(
             self,
             courses_client: CoursesClient,
@@ -35,5 +48,3 @@ class TestCourses:
 
         # Проверяем соответствие JSON-ответа схеме
         validate_json_schema(response.json(), response_data.model_json_schema())
-
-    # Остальной код без изменений
