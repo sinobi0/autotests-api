@@ -25,11 +25,14 @@ from tools.assertions.schema import validate_json_schema
 @allure.tag(AllureTag.COURSES, AllureTag.REGRESSION)  # Добавили теги
 @allure.epic(AllureEpic.LMS)
 @allure.feature(AllureFeature.COURSES)
+@allure.parent_suite(AllureEpic.LMS)
+@allure.suite(AllureFeature.COURSES)
 class TestCourses:
     @allure.tag(AllureTag.UPDATE_ENTITY)
     @allure.story(AllureStory.UPDATE_ENTITY)
     @allure.title("Update course")  # Добавили заголовок
     @allure.severity(Severity.CRITICAL)  # Добавили severity
+    @allure.sub_suite(AllureStory.UPDATE_ENTITY)
     def test_update_course(self, courses_client: CoursesClient, function_course: CourseFixture):
         # Формируем данные для обновления
         request = UpdateCourseRequestSchema()
@@ -50,6 +53,7 @@ class TestCourses:
     @allure.story(AllureStory.CREATE_ENTITY)
     @allure.title("Create course")  # Добавили заголовок
     @allure.severity(Severity.BLOCKER)  # Добавили severity
+    @allure.sub_suite(AllureStory.CREATE_ENTITY)
     def test_create_course(
             self,
             courses_client: CoursesClient,

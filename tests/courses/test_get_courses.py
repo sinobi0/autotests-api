@@ -22,12 +22,14 @@ from tools.assertions.schema import validate_json_schema
 @pytest.mark.regression
 @allure.tag(AllureTag.COURSES, AllureTag.REGRESSION)  # Добавили теги
 @allure.epic(AllureEpic.LMS)
+@allure.parent_suite(AllureEpic.LMS)
 @allure.feature(AllureFeature.COURSES)
 class TestCourses:
     @allure.tag(AllureTag.GET_ENTITIES)
     @allure.story(AllureStory.GET_ENTITIES)
     @allure.title("Get courses")  # Добавили заголовок
     @allure.severity(Severity.BLOCKER)  # Добавили severity
+    @allure.sub_suite(AllureStory.GET_ENTITIES)
     def test_get_courses(
             self,
             courses_client: CoursesClient,

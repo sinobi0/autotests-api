@@ -21,10 +21,13 @@ from tools.assertions.schema import validate_json_schema
 @allure.tag(AllureTag.REGRESSION, AllureTag.AUTHENTICATION)  # Добавили теги
 @allure.epic(AllureEpic.LMS)  # Добавили epic
 @allure.feature(AllureFeature.AUTHENTICATION)  # Добавили feature
+@allure.parent_suite(AllureEpic.LMS)
+@allure.suite(AllureFeature.AUTHENTICATION)
 class TestAuthentication:
     @allure.story(AllureStory.LOGIN)
     @allure.title("Login with correct email and password")  # Добавили заголовок
     @allure.severity(Severity.BLOCKER)  # Добавили severity
+    @allure.sub_suite(AllureStory.LOGIN)
     def test_login(self, function_user: UserFixture, authentication_client: AuthenticationClient):
         request = LoginRequestSchema(email=function_user.email, password=function_user.password)
         response = authentication_client.login_api(request)
