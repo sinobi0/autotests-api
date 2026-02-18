@@ -23,6 +23,7 @@ from tools.assertions.schema import validate_json_schema
 
 @pytest.mark.courses
 @pytest.mark.exercises
+@pytest.mark.regression
 @allure.tag(AllureTag.EXERCISES, AllureTag.REGRESSION)  # Добавили теги
 @allure.epic(AllureEpic.LMS)  # Добавили epic
 @allure.feature(AllureFeature.EXERCISES)  # Добавили feature
