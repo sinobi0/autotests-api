@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTIzVDE4OjE2OjA4LjQ3NjkyMSIsInVzZXJfaWQiOiIxN2IxMzYxZC0yMjc0LTQzMzgtOTk0My1iZDMxNTkwYzgzYTAifQ.fQ6xg90U80mP7G090m1cuZ_z6ceNIIjb8vkyPmCvDFQ' \
+  -H 'content-length: 335' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Significant fact several to year.","maxScore":60,"minScore":10,"description":"Help send become toward myself beyond ahead. Film check represent clear truth. Medical standard trial star.","estimatedTime":"6 weeks","previewFileId":"a1fb2567-23f6-4712-a47b-5fd35e17a233","createdByUserId":"17b1361d-2274-4338-9943-bd31590c83a0"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTIzVDE4OjE2OjAxLjQ5MjY2NSIsInVzZXJfaWQiOiI3NDJhOTVhOC1jOWEyLTQ4MjItODFhYy1jMmNhM2RiODljYTUifQ.FxwhDJ0gDf5iDgWB6vk9EVWW3b6uAlWbaM7ND9KocWM' \
+  -H 'content-length: 372' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Message wide enough these over strong character.","maxScore":80,"minScore":9,"description":"Cup rise its our operation be occur. Election conference film feeling.\nWorker group any feel cold particularly. Ask energy heart.","estimatedTime":"3 weeks","previewFileId":"7c066771-8aa8-4d1d-b1a1-d376032e35b4","createdByUserId":"742a95a8-c9a2-4822-81ac-c2ca3db89ca5"}'

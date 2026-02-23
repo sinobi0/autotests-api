@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTIzVDE4OjE1OjMzLjQzNTk1MSIsInVzZXJfaWQiOiIwZjY0ZTY4MS0xMjg4LTQ1OWItODdiYi05NjQ1MTY1MmI1NDYifQ.YSQZy14GY6Yt-XP0J9f3_o6wibgxYSRO5LclcLKREGE' \
+  -H 'content-length: 421' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Control firm investment mission old part.","maxScore":52,"minScore":4,"description":"Nice into effect blue agency white. Her worry specific low career eye.\nFront other popular assume. Source significant discussion summer. Cold performance far such opportunity scientist.","estimatedTime":"4 weeks","previewFileId":"3a547f7f-cd0c-4e14-97e0-3359f9c9d336","createdByUserId":"0f64e681-1288-459b-87bb-96451652b546"}'
