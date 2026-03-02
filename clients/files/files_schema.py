@@ -1,4 +1,4 @@
-from pydantic import BaseModel, HttpUrl, Field
+from pydantic import BaseModel, HttpUrl, Field, FilePath
 
 from tools.fakers import fake
 
@@ -12,11 +12,13 @@ class FileSchema(BaseModel):
     filename: str
     directory: str
 
+
 class GetFileResponseSchema(BaseModel):
     """
     Описание структуры запроса получения файла.
     """
     file: FileSchema
+
 
 class CreateFileRequestSchema(BaseModel):
     """
@@ -26,7 +28,7 @@ class CreateFileRequestSchema(BaseModel):
     filename: str = Field(default_factory=lambda: f"{fake.uuid4()}.png")
     # Директорию оставляем статичной, чтобы все тестовые файлы на сервере попадали в одну папку
     directory: str = Field(default="tests")
-    upload_file: str
+    upload_file: FilePath
 
 
 class CreateFileResponseSchema(BaseModel):
