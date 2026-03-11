@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTExVDE4OjQxOjQzLjQ4MjQyNiIsInVzZXJfaWQiOiJiNzY1ZjdjZC1kMjE5LTQzY2ItOWRkYy02ODAzZTkzNzJmNTEifQ.1vBQAv20ZBLz7zt4GLdgD5Au1XvRsq6eF6vt330ZJxU' \
+  -H 'content-length: 361' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Nor carry agency certain say.","maxScore":82,"minScore":10,"description":"Activity else mind common performance. President save throughout employee law professor newspaper. Never give financial sit among simply.","estimatedTime":"9 weeks","previewFileId":"be99ee6b-47ac-4810-aa16-d4eb2487bae8","createdByUserId":"b765f7cd-d219-43cb-9ddc-6803e9372f51"}'

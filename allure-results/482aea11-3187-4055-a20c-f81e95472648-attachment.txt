@@ -1,0 +1,15 @@
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/users
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/users
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/authentication/login
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:31 Make GET request to http://localhost:8000/api/v1/users/me
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/users/me
+[32mINFO    [0m BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+[32mINFO    [0m USERS_ASSERTIONS:users.py:51 Check get user response
+[32mINFO    [0m USERS_ASSERTIONS:users.py:35 Check user
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "id" equals to 6475bcaa-4d56-4c83-b110-a8c90346be2a
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "email" equals to elizabethpugh@example.net
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "last_name" equals to Love
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "first_name" equals to Andrea
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "middle_name" equals to Scott
+[32mINFO    [0m SCHEMA_ASSERTIONS:schema.py:22 Validating JSON schema

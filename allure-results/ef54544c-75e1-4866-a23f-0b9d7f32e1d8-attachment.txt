@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/b0937218-7516-4988-9cc9-c96319fae136' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTExVDE4OjQxOjQzLjI5ODg0MyIsInVzZXJfaWQiOiIzMTc0ZTEwMS05YjFhLTRhNDItYmVlZi01NTcyMWIyYjRiYzcifQ.ssQSTtoH03_S3jy8M7QoXthn6sDgGbiq4FaV5DSab-Q' \
+  -H 'content-length: 225' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Learn best organization role dog provide mother.","maxScore":78,"minScore":18,"description":"Head machine between worry. Not social executive machine. Leave administration figure realize.","estimatedTime":"7 weeks"}'

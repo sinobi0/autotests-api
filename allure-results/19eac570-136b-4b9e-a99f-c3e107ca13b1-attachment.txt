@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTExVDE4OjQxOjM1LjgwNTcyOSIsInVzZXJfaWQiOiI1ZTc5MTQzYi00ZmI1LTQ3YTEtYWNlNy0xMGMwMzVmMDljY2QifQ.wgaywzMcLrRn468pDayeqV7bhDgH7jQd-894b4vk_Pk' \
+  -H 'content-length: 398' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Worry share race sit.","maxScore":55,"minScore":2,"description":"Until finally energy. Catch under summer thought matter do book.\nExactly leg health health risk control five. Name really data decade she laugh ready. Cut I inside gas person matter.","estimatedTime":"1 weeks","previewFileId":"7593affa-50fe-4cc4-a990-732e06a378ca","createdByUserId":"5e79143b-4fb5-47a1-ace7-10c035f09ccd"}'

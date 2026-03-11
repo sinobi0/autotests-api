@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTExVDE4OjQxOjM3LjM4NTQ0MSIsInVzZXJfaWQiOiJhZGFhM2Q4Yy02MGI5LTQ2YjUtYmRiNi1lNGRlNjZhYjZkYzcifQ.etp_YTfaVqEyPWLJpRW0sJwV4rbgfH9NBjn_Jxt2cts' \
+  -H 'content-length: 402' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Relationship however night speak.","maxScore":72,"minScore":9,"description":"Question throw station know instead who. Person than market coach. Tend market receive list.\nWithout pattern down pattern degree physical decide. Share region strong turn at.","estimatedTime":"3 weeks","previewFileId":"cc8b750f-b2c4-4da2-8948-17b4ecdccc14","createdByUserId":"adaa3d8c-60b9-46b5-bdb6-e4de66ab6dc7"}'

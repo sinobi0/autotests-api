@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTExVDE4OjQxOjQ2LjExMTIzNyIsInVzZXJfaWQiOiIxZTIwM2ExOC1iN2QxLTRkZmYtYTYyMi1kYmYwMGNiNzE5ODcifQ.cx0SSN1VH29KfElQlhipTGsQBbDi0cfTAe4CDry-yyo' \
+  -H 'content-length: 385' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Every security before sense throw many anyone.","maxScore":68,"minScore":2,"description":"Draw first study toward attention full today some. Field any wife many material describe war treatment.\nCareer firm skill record officer choice.","estimatedTime":"5 weeks","previewFileId":"bfd7337a-2c25-4069-ae76-d5b9cc7fc8d7","createdByUserId":"1e203a18-b7d1-4dff-a622-dbf00cb71987"}'
