@@ -1,7 +1,8 @@
 pytest_plugins = (
     "fixtures.users",
     "fixtures.files",
-    "fixtures.courses",  # Добавляем фикстуры для работы с курсами
+    "fixtures.courses",
     "fixtures.authentication",
-    "fixtures.exercises"
+    "fixtures.exercises",
+    "fixtures.allure"
 )

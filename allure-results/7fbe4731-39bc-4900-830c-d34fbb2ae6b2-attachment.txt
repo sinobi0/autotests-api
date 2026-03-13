@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTEzVDE5OjMxOjU0LjE3OTEyMCIsInVzZXJfaWQiOiJiNTgwYzU2Yy1hYzdiLTRkOGYtOWNhZS00MWMyYzQ1YWRiMTMifQ.FLseHXRx32I3CnUCwaS79NR1870aKbMo0AWqhUbEPlk' \
+  -H 'content-length: 370' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Trade deep push popular at seven action.","maxScore":84,"minScore":6,"description":"Past parent success indeed indeed history. Idea hard sign part I. Its customer yourself turn himself thought. Process southern painting.","estimatedTime":"4 weeks","previewFileId":"63f3dd6d-9da2-4913-a092-887a8bdb2fed","createdByUserId":"b580c56c-ac7b-4d8f-9cae-41c2c45adb13"}'

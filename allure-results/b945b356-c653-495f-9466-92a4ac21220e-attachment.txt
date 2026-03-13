@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTEzVDE5OjMyOjIyLjQ1MzQ0MiIsInVzZXJfaWQiOiJjNjdkYjhkYi00ZjEzLTQxZGYtOTM0Yy1mNmVjNTVhZmMxOGMifQ.ktVGk4Rp-gFMK4to6NbSJ9pwsmDM4dXg1zcRdiyzn5E' \
+  -H 'content-length: 381' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Short approach business cultural.","maxScore":84,"minScore":17,"description":"Describe allow account term happy per bit. Include economic poor including close data. Now concern their garden.\nFocus almost dog street it south ready.","estimatedTime":"6 weeks","previewFileId":"b6180de4-d4a9-443c-ab6b-b0ab461bbf83","createdByUserId":"c67db8db-4f13-41df-934c-f6ec55afc18c"}'
