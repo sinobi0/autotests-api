@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/d23ede7b-7a75-4026-a4f4-9d5d4117d3dd' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE5VDE3OjUyOjI1LjE0NzMyMCIsInVzZXJfaWQiOiI0NzQ2ZGUzZi0yNjc0LTQwMmYtYTQ1NC01YjViYTI0NWMxNTgifQ.IsO9xbFM6gZPToqJFv7EDtqk2IxYvZpJ8UDXliX03aI' \
+  -H 'content-length: 255' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Turn film charge actually seek.","maxScore":53,"minScore":3,"description":"Share human if knowledge fine. Move focus wife friend career.\nSpeak long reflect. Any book part. Example share pay strong water report show.","estimatedTime":"10 weeks"}'

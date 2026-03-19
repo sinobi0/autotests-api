@@ -1,0 +1,19 @@
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/users
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/users
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/authentication/login
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/files
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/files
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/courses
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/courses
+[32mINFO    [0m BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+[32mINFO    [0m COURSES_ASSERTIONS:courses.py:24 Check create course response
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "title" equals to Painting foot friend father region.
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to 88
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to 15
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "description" equals to Behind because easy appear between worry.
+White buy nature grow fact low. These happen partner argue property. Successful test blood year.
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "estimatedTime" equals to 7 weeks
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "preview_file_id" equals to 8ec34f06-0034-4d99-8edd-2f7920e917ea
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "created_by_user_id" equals to 715c9c75-21d9-4aaf-a850-1e23c162107a
+[32mINFO    [0m SCHEMA_ASSERTIONS:schema.py:22 Validating JSON schema
