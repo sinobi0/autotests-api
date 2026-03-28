@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI4VDE0OjMxOjQ1LjUwNjU3MCIsInVzZXJfaWQiOiJmOGMxODIwYS1lOGQzLTQyNWUtOGYyOC1mNGUwYTYxYjU5NGIifQ.TsEaJQXI29n5IMAI1QhSLW5DhMyYTgenurLNoVqa0Hw' \
+  -H 'content-length: 418' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Outside him note red option.","maxScore":86,"minScore":3,"description":"Per down development. Perhaps including parent truth ok. Hundred today develop him live yet population wall.\nMention environmental operation of agent say foot. Generation once issue concern hit.","estimatedTime":"10 weeks","previewFileId":"db0dcea4-1cc4-47e8-a973-30afb0862ddc","createdByUserId":"f8c1820a-e8d3-425e-8f28-f4e0a61b594b"}'

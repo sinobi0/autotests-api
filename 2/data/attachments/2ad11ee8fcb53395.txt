@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/25130f23-eda1-4d22-acd4-48b868d6a1c0' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI4VDE0OjMxOjQzLjY4NDIxNSIsInVzZXJfaWQiOiI0ODhlNmNiMy05MDA5LTRhOTQtYmU5MS0xMjgwNTAyZDA2YzYifQ.cP6EO5_hLYQPtLj2oqAGhd7s3odvCGOpwZ7GahIx5vg' \
+  -H 'content-length: 205' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Source yes generation can evidence of short.","maxScore":53,"minScore":21,"description":"Couple candidate hospital. Understand city either local lose another edge off.","estimatedTime":"6 weeks"}'

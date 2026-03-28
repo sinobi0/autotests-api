@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI4VDE0OjMxOjQ2Ljc4MzkyMSIsInVzZXJfaWQiOiI4NWI3ZjVjYS0wMjU3LTRkMzktOTM3MC1hMzU1ZTVlMjY4YzAifQ.F9VzLQ0RGDfP7vLRm336_Fo55H-0e4yBb37AomRRTbk' \
+  -H 'content-length: 402' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Land short tonight movie no.","maxScore":59,"minScore":24,"description":"Political close important catch. Population small subject race firm green.\nPhysical hand particular much when financial. Success dinner group think option. Line case third small.","estimatedTime":"9 weeks","previewFileId":"a614c2a4-412a-4818-be5a-43f076de0572","createdByUserId":"85b7f5ca-0257-4d39-9370-a355e5e268c0"}'

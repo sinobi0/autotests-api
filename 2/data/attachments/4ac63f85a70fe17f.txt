@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI4VDE0OjMxOjQ0LjkyNTY4MiIsInVzZXJfaWQiOiI3ZjAyMmI4NS02YzE0LTQ2ODUtYjU1My05OWI0NDdjZGNmZDQifQ.bCiufRyUBIEc0_yY1w5xj5vQ1ZttuIBtF5l3yKryQk0' \
+  -H 'content-length: 368' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Region recent fish capital.","maxScore":61,"minScore":18,"description":"Song magazine officer special Mr but visit Mrs.\nBegin audience wrong four cup. Decision rule along. Tv picture stand mission low again scientist.","estimatedTime":"8 weeks","previewFileId":"be5f9238-85d3-4608-a1e7-dcfe10d6bd44","createdByUserId":"7f022b85-6c14-4685-b553-99b447cdcfd4"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/a22fbae1-d59d-42a3-a1e1-02d6c3a54091' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI4VDE0OjMxOjQ1LjUwNjU3MCIsInVzZXJfaWQiOiJmOGMxODIwYS1lOGQzLTQyNWUtOGYyOC1mNGUwYTYxYjU5NGIifQ.TsEaJQXI29n5IMAI1QhSLW5DhMyYTgenurLNoVqa0Hw' \
+  -H 'content-length: 241' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Expect but director task ten quite.","maxScore":88,"minScore":14,"orderIndex":52,"description":"Station else employee stand top big first.\nLong follow help city life heavy yourself. Stand woman prevent.","estimatedTime":"1 weeks"}'

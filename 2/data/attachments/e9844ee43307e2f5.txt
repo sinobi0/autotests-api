@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI4VDE0OjMxOjQ3LjQ0NjIwOCIsInVzZXJfaWQiOiIyNWM3Mzc3NC04YWQwLTQzZDAtOTBiMC0zZGM4YTdjZTU1YWIifQ.GXBnNDRQP2UH6rryIoXnO-ALMG-2KkBeZy27-ykEUQE' \
+  -H 'content-length: 419' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Which forward lay method.","maxScore":92,"minScore":3,"description":"This history group south amount take risk out. Officer debate public possible whose message week about. Democrat huge town green.\nNews sort this with. At personal free save player computer religious.","estimatedTime":"8 weeks","previewFileId":"0a6630ae-4434-4628-b819-83bc9f1e595e","createdByUserId":"25c73774-8ad0-43d0-90b0-3dc8a7ce55ab"}'

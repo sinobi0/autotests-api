@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI4VDE0OjMxOjQzLjA5MzM0NyIsInVzZXJfaWQiOiI1YThhYTcxNC04OThhLTQ4ZTUtYWZhMC0xY2QzYTIzNTcxOGUifQ.KDY4Ro8vo8OLPYj-6MF2ozU13nxYeT391nYPtO2qAm4' \
+  -H 'content-length: 409' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Challenge course word analysis material yes ahead see.","maxScore":72,"minScore":16,"description":"College lead air value important many chair. Owner audience less offer people former listen.\nBall beautiful writer bit itself health. Body project above cover.","estimatedTime":"7 weeks","previewFileId":"07ac5288-98d2-43ab-9004-e284ff19ba1b","createdByUserId":"5a8aa714-898a-48e5-afa0-1cd3a235718e"}'

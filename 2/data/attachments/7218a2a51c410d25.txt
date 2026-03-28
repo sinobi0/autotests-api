@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI4VDE0OjMxOjQ0LjI2Nzg4MSIsInVzZXJfaWQiOiI4ZTdhZGM5My0yNTM4LTRjYjctOTRiOC01NWViNGRlN2IwOWQifQ.1yY4BRDhNJWfiHcuxW6iLCcMKf7oCpsMplzOi-cfkr4' \
+  -H 'content-length: 423' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Ask stand level protect final certainly.","maxScore":93,"minScore":5,"description":"Drop candidate management address resource realize try happy. Key policy attack product role year way local.\nPer right government or help suggest to. Eight cut already any task outside no.","estimatedTime":"3 weeks","previewFileId":"57060ae1-7c1f-4b66-9c83-9b314877f037","createdByUserId":"8e7adc93-2538-4cb7-94b8-55eb4de7b09d"}'
