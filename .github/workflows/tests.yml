@@ -22,7 +22,7 @@ jobs:
 
       # 2. Шаг для установки Python на виртуальной машине
       - name: Set up Python
-        uses: actions/checkout@v6  # Используем GitHub Action для установки Python
+        uses: actions/setup-python@v5 # Используем GitHub Action для установки Python
         with:
           python-version: '3.13'  # Устанавливаем версию Python 3.11 (можно заменить на другую версию)
 
@@ -71,6 +71,7 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: allure-report
+          path: allure-results
       # 2. Шаг для получения истории отчётов Allure, если она существует
       - name: Get Allure history
         uses: actions/checkout@v4  # Опять клонируем репозиторий, чтобы получить историю отчётов
@@ -85,7 +86,7 @@ jobs:
         uses: simple-elf/allure-report-action@v1.13  # Используем готовое решение из GitHub Marketplace для генерации Allure отчёта
         if: always()  # Этот шаг тоже всегда выполняется
         with:
-          allure_results: allure-report  # Указываем каталог с результатами тестов
+          allure_results: allure-results  # Указываем каталог с результатами тестов
           allure_history: allure-history  # Указываем каталог для истории отчётов Allure
 
       # 4. Шаг для деплоя отчёта Allure на GitHub Pages, чтобы его можно было просматривать в браузере
