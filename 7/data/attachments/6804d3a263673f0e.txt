@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI5VDE3OjQ0OjAzLjE1MzAxNyIsInVzZXJfaWQiOiIyODk2MDRiYS1hOTNhLTQ1NzAtYjFlMS1mMjhiMjhhMTE1YjEifQ.XyiwM1kZqVKcsINF-_zYQtp_IP83uNFQ1oIbpVAAM0A' \
+  -H 'content-length: 384' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Moment several enjoy instead allow.","courseId":"4bc1afad-2bcb-45c4-a6c1-061d38679f55","maxScore":98,"minScore":20,"orderIndex":80,"description":"Where nothing show you.\nWork beyond apply industry. Most eight lawyer like find boy.\nLeft along start fall. Seven mother dark.\nScore challenge other exactly deal game. Mind say compare accept will.","estimatedTime":"2 weeks"}'

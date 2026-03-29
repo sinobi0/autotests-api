@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI5VDE3OjQzOjU5LjQwMjUyMSIsInVzZXJfaWQiOiI0NmZiMDU4Ny0yNjNlLTRmYTQtYjkxYi01ODU0OWIxZDEyNTgifQ.AYAe5O6xxVu47sROJfgAxIsSTXuE3iWVCWsUXuuo0fo' \
+  -H 'content-length: 356' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Camera eye source member west even customer.","maxScore":54,"minScore":10,"description":"Foreign data design spring executive their start card. Music defense manage decision officer doctor single president.","estimatedTime":"5 weeks","previewFileId":"3f50bbaf-ec10-47f4-87f5-749b8b6897a4","createdByUserId":"46fb0587-263e-4fa4-b91b-58549b1d1258"}'

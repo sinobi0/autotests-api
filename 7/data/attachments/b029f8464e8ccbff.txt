@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI5VDE3OjQ0OjAzLjE1MzAxNyIsInVzZXJfaWQiOiIyODk2MDRiYS1hOTNhLTQ1NzAtYjFlMS1mMjhiMjhhMTE1YjEifQ.XyiwM1kZqVKcsINF-_zYQtp_IP83uNFQ1oIbpVAAM0A' \
+  -H 'content-length: 342' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Light building thank pay whole against.","maxScore":92,"minScore":27,"description":"Senior simple their anything. Whatever land section wide theory. Relationship number feel green another one.","estimatedTime":"2 weeks","previewFileId":"f093a685-bdb7-4e46-a4b5-c7d730fe507d","createdByUserId":"289604ba-a93a-4570-b1e1-f28b28a115b1"}'

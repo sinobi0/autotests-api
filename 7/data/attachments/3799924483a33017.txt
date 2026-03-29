@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/29f7f5c3-a19e-47c4-b6ff-74cac4d7d33b' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI5VDE3OjQzOjU5LjQwMjUyMSIsInVzZXJfaWQiOiI0NmZiMDU4Ny0yNjNlLTRmYTQtYjkxYi01ODU0OWIxZDEyNTgifQ.AYAe5O6xxVu47sROJfgAxIsSTXuE3iWVCWsUXuuo0fo' \
+  -H 'content-length: 236' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Agent language reveal song sign project after.","maxScore":86,"minScore":22,"description":"Difficult sometimes particular soldier style executive. Significant receive simply strategy later daughter.","estimatedTime":"5 weeks"}'

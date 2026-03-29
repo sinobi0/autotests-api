@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI5VDE3OjQ0OjAwLjY1MTc5MiIsInVzZXJfaWQiOiJlNWNjOGNmOC0zY2Y2LTQ1NzMtYTA3MS05NTdhOTQzYzE5YTgifQ.6cs4dM9PQrY9dwmjlszVPpW5vp4tx5Gxol4PXew0_Do' \
+  -H 'content-length: 280' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Goal heavy believe quite.","courseId":"edeb2a6e-11e5-443c-936f-c91fc699a034","maxScore":96,"minScore":13,"orderIndex":72,"description":"Agree beyond lose sing. Each risk less although shake beyond area. Itself then cup treatment born matter.","estimatedTime":"10 weeks"}'

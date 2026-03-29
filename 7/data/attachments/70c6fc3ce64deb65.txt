@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI5VDE3OjQzOjU5Ljk4ODc3MSIsInVzZXJfaWQiOiIzOThmYmQ0OC1mM2QyLTQ4OTgtYTc1MS1mOWNkY2FlM2MxODcifQ.mupgpIDxHcnskCa2RtiUKCRMIF-xRNXKk1OyPkDNQec' \
+  -H 'content-length: 386' \
+  -H 'content-type: application/json' \
+  -d '{"title":"National popular possible.","maxScore":95,"minScore":5,"description":"Writer write black style language middle send. Candidate because democratic TV example.\nWriter strong resource south allow north wear. Other best rise strategy tree.","estimatedTime":"7 weeks","previewFileId":"641a957c-7542-4be4-89d4-86b092eda223","createdByUserId":"398fbd48-f3d2-4898-a751-f9cdcae3c187"}'

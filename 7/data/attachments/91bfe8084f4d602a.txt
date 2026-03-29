@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI5VDE3OjQ0OjAyLjQ5MTQ2NyIsInVzZXJfaWQiOiI3ZWY2M2E2My1kOWE3LTQ4MzgtOWFhZS02MjNkNzZlNDJiNjkifQ.f3OsY3lZmfZckIgijD3u2AWgy1q6p-82eChBt75nuZg' \
+  -H 'content-length: 358' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Him his table.","courseId":"8ca17d83-e143-4287-901d-52789fc18af6","maxScore":81,"minScore":27,"orderIndex":42,"description":"Happen his sound student easy make American maybe. Gas field surface money either today yet various.\nPerhaps center agree natural white Democrat. Chance give environmental day red benefit plant.","estimatedTime":"6 weeks"}'

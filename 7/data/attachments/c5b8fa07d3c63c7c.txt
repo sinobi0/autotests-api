@@ -1,0 +1,18 @@
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:24 Check create course response
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals to Study star would.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to 69
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to 3
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals to Nothing size room wife lead. Art his without alone stock. High data thus staff friend strategy. Site exactly risk never hair common couple.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimatedTime" equals to 5 weeks
+INFO     BASE_ASSERTIONS:base.py:38 Check that "preview_file_id" equals to 94667059-0004-4171-b761-41ac964a0645
+INFO     BASE_ASSERTIONS:base.py:38 Check that "created_by_user_id" equals to ac93ad3c-b86e-4068-bd68-25fa54d95713
+INFO     SCHEMA_ASSERTIONS:schema.py:22 Validating JSON schema

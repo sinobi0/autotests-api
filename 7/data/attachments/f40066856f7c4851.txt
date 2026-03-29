@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI5VDE3OjQ0OjAxLjI0MTgyMyIsInVzZXJfaWQiOiI1NmUwZTBmMS02MWJiLTQyYjAtYTExNy0xODcxYTMxMDYyNTgifQ.judzPf5mLnYDjaGcATOezGeCP3YjdNap2wai2-i-sgE' \
+  -H 'content-length: 350' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Every detail thing wife where direction can civil.","courseId":"a9d722c9-adba-4151-b41b-1350c9ce2e36","maxScore":53,"minScore":30,"orderIndex":55,"description":"Show ability here check. Strong including support inside difference pick less. Another board anyone note education just stay show. Measure center seem.","estimatedTime":"6 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI5VDE3OjQzOjU4Ljc2ODY1NyIsInVzZXJfaWQiOiJhYzkzYWQzYy1iODZlLTQwNjgtYmQ2OC0yNWZhNTRkOTU3MTMifQ.aWmu-C4pYcPVyrD7srLU3rM8dTKJsONhQq9Vqrik3w8' \
+  -H 'content-length: 350' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Study star would.","maxScore":69,"minScore":3,"description":"Nothing size room wife lead. Art his without alone stock. High data thus staff friend strategy. Site exactly risk never hair common couple.","estimatedTime":"5 weeks","previewFileId":"94667059-0004-4171-b761-41ac964a0645","createdByUserId":"ac93ad3c-b86e-4068-bd68-25fa54d95713"}'

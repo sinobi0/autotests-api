@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI5VDE3OjQ0OjAxLjI0MTgyMyIsInVzZXJfaWQiOiI1NmUwZTBmMS02MWJiLTQyYjAtYTExNy0xODcxYTMxMDYyNTgifQ.judzPf5mLnYDjaGcATOezGeCP3YjdNap2wai2-i-sgE' \
+  -H 'content-length: 299' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Send long card hand short.","maxScore":50,"minScore":7,"description":"Blood religious less stock stock radio physical. Art always provide other fish.","estimatedTime":"8 weeks","previewFileId":"f48202a2-31b9-47b2-a47a-9f12b236cc4d","createdByUserId":"56e0e0f1-61bb-42b0-a117-1871a3106258"}'
