@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate, zstd' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI5VDE2OjMwOjEwLjM4Mzc3MCIsInVzZXJfaWQiOiJjM2YyZDU4ZS0yNDQ0LTRjNjEtYmZmNy1kMDMzMTZmODk1ZjQifQ.4wPe6LFB7AwoVn0dqmTj8WhWBjeIzEL_O0PwijutRik' \
+  -H 'content-length: 457' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Increase father soldier white less history become sometimes.","maxScore":100,"minScore":12,"description":"Create food check. Opportunity bring sense personal compare ready. Discussion father week low education.\nTerm standard field opportunity respond.\nGo three there. Behind ok garden discover news occur.","estimatedTime":"5 weeks","previewFileId":"da4d7a08-f640-48ce-a350-1ebdfc1ce113","createdByUserId":"c3f2d58e-2444-4c61-bff7-d03316f895f4"}'

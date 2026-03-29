@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/797e1d5a-fa04-4819-9530-fadb08d015e1' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate, zstd' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI5VDE2OjMwOjEwLjY1Njc1MiIsInVzZXJfaWQiOiI1MzI5M2IxMy04ZmFiLTQzYmYtODQzMC1kOTVlMzlmNGVlNWUifQ.65N1OlTeWKb072IWZCwnYFjfVnjR4SfxkUeXOP646kQ' \
+  -H 'content-length: 330' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Language do might any even before inside partner.","maxScore":60,"minScore":22,"orderIndex":58,"description":"Against fall deep window onto stop. Prove gun end watch argue institution.\nSave house reality. Information level church together. Environmental national coach term reveal idea site.","estimatedTime":"3 weeks"}'

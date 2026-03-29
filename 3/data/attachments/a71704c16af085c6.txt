@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate, zstd' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI5VDE2OjMwOjEyLjkwNjUwNCIsInVzZXJfaWQiOiI1NTgxMjAwNS03ZjY0LTQ1N2ItODQwNy0zNWJlOWU1N2U1ODAifQ.6KuskOlpQI3FW2oGyA0tHPcbI9W0lcnoEEcoIpUfn9M' \
+  -H 'content-length: 381' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Statement girl hand on.","maxScore":73,"minScore":21,"description":"Leg under alone above three town. Eye put cost would stay cup.\nProduce inside collection. Air general political look. Trial instead when each someone song debate.","estimatedTime":"1 weeks","previewFileId":"1622db13-ab89-4135-be08-3feb1f6f9ab1","createdByUserId":"55812005-7f64-457b-8407-35be9e57e580"}'

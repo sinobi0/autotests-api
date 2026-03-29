@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate, zstd' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI5VDE2OjMwOjEwLjM4Mzc3MCIsInVzZXJfaWQiOiJjM2YyZDU4ZS0yNDQ0LTRjNjEtYmZmNy1kMDMzMTZmODk1ZjQifQ.4wPe6LFB7AwoVn0dqmTj8WhWBjeIzEL_O0PwijutRik' \
+  -H 'content-length: 338' \
+  -H 'content-type: application/json' \
+  -d '{"title":"His myself write today make which which.","courseId":"7dd96bda-07f6-45e5-8512-fbd2de10dc60","maxScore":50,"minScore":5,"orderIndex":98,"description":"Chance sister friend toward. Class pick art south general party sense.\nCommon trial bill hand stay player hundred list. Pick paper international low.","estimatedTime":"6 weeks"}'

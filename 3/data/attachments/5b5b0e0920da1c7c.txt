@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate, zstd' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI5VDE2OjMwOjEwLjY1Njc1MiIsInVzZXJfaWQiOiI1MzI5M2IxMy04ZmFiLTQzYmYtODQzMC1kOTVlMzlmNGVlNWUifQ.65N1OlTeWKb072IWZCwnYFjfVnjR4SfxkUeXOP646kQ' \
+  -H 'content-length: 361' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Best industry sister of glass.","maxScore":80,"minScore":27,"description":"Message different campaign only minute full old. There bank response keep course hold model.\nDespite tonight ago enter from source win.","estimatedTime":"6 weeks","previewFileId":"ee76aa7c-9f03-47fc-b3bf-04dfdfc4c47a","createdByUserId":"53293b13-8fab-43bf-8430-d95e39f4ee5e"}'

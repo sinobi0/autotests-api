@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate, zstd' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI5VDE2OjMwOjA5LjQ2MTgzMCIsInVzZXJfaWQiOiJmZGFiNWEwMS1mMGFkLTQ5NzQtYjEwOC00MWQxY2ZlNWE5MGMifQ.V0dXmeag6kvsjIk41AlNEsY2eqP1iLKqVC-3XUKG1LA' \
+  -H 'content-length: 418' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Past sell smile member during physical.","maxScore":93,"minScore":14,"description":"Beautiful consider do need too.\nHusband court crime child order open. Mind set wall raise.\nSouthern staff early focus who do close. Material career lot direction cause behavior fall.","estimatedTime":"6 weeks","previewFileId":"0447360a-c195-4c38-a4de-f35e5ed7088a","createdByUserId":"fdab5a01-f0ad-4974-b108-41d1cfe5a90c"}'

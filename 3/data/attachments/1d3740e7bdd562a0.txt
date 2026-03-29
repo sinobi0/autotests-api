@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/f8a7e9c0-78cd-4691-ba81-e753bf20760f' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate, zstd' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI5VDE2OjMwOjA4Ljg3MjI5NSIsInVzZXJfaWQiOiI1MTRmYWU1Ny0yNzUwLTQxNWMtYWI5MC00NjMzOTYyOWMxYWYifQ.7EOBXR_-WGC4RJpfZrCtzlZF5-pL3SbgBx0Qskvas8Q' \
+  -H 'content-length: 262' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Offer attorney since blue story.","maxScore":52,"minScore":13,"description":"Hospital make memory wish return. Mr writer thus until. Senior usually Mr marriage receive Mrs.\nEconomic their often.\nSport level program source.","estimatedTime":"9 weeks"}'

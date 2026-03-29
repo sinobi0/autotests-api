@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate, zstd' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI5VDE2OjMwOjA4Ljg3MjI5NSIsInVzZXJfaWQiOiI1MTRmYWU1Ny0yNzUwLTQxNWMtYWI5MC00NjMzOTYyOWMxYWYifQ.7EOBXR_-WGC4RJpfZrCtzlZF5-pL3SbgBx0Qskvas8Q' \
+  -H 'content-length: 344' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Role clear dream learn long.","maxScore":85,"minScore":23,"description":"Try represent memory production respond. Debate remember experience free itself. Lawyer owner modern worry off ahead but.","estimatedTime":"9 weeks","previewFileId":"5c578530-372e-4e70-97b9-f8ccf42c54ea","createdByUserId":"514fae57-2750-415c-ab90-46339629c1af"}'

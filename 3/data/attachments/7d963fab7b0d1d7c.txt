@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate, zstd' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI5VDE2OjMwOjA4LjI4NTU5MSIsInVzZXJfaWQiOiJhMzAyNzA0Yi1hODQwLTQzOGEtOWQxNS0wYzhhYWU0NDdmYWQifQ.ia61I0Ugl1INvspgj5SUeALOOGseRKB8XruyoSZVVLI' \
+  -H 'content-length: 390' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Accept key almost class than whole.","maxScore":74,"minScore":7,"description":"Development drop move office national already. Thing necessary experience care.\nNice through simple pattern understand. Strategy senior watch truth wide lawyer.","estimatedTime":"1 weeks","previewFileId":"0a69522d-7835-48f8-8cdc-35934d0b8b66","createdByUserId":"a302704b-a840-438a-9d15-0c8aae447fad"}'

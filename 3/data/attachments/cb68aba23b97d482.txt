@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate, zstd' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI5VDE2OjMwOjExLjkzNzM1MCIsInVzZXJfaWQiOiIzOWRjYjc3MC0wZmRiLTQ0NTMtYWEwNS02MmYxMDA1YjMxYTgifQ.zfFfd2rAFLg8oZKQBW2WSHxCi4uKtFdxRcFV6hJNVE4' \
+  -H 'content-length: 404' \
+  -H 'content-type: application/json' \
+  -d '{"title":"True executive bill reality risk.","maxScore":87,"minScore":8,"description":"Word end our site stock design would. Move plant kid question.\nMust method medical rich safe. Short third heavy hand maintain then finish speech. White woman what important of.","estimatedTime":"6 weeks","previewFileId":"6896e4a2-54fc-4b1a-9578-50b1a72d4396","createdByUserId":"39dcb770-0fdb-4453-aa05-62f1005b31a8"}'

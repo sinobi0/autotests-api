@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate, zstd' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI5VDE2OjMwOjExLjY2MzIwMCIsInVzZXJfaWQiOiI5YzAzOWI0NC0zNmI5LTQ1NGMtOTU1Zi0xNTg3OGYwYjc3ODcifQ.OkisKwUCBiodrkZLQH-2sRUs3lSp_Vw_LpTIf0awNfw' \
+  -H 'content-length: 324' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Yet team little rich hand.","maxScore":82,"minScore":10,"description":"Entire agency behind daughter rich support since story.\nArgue money reflect page alone get front vote.","estimatedTime":"7 weeks","previewFileId":"bd9046f3-c789-46c6-aa4e-3f832d5e84c8","createdByUserId":"9c039b44-36b9-454c-955f-15878f0b7787"}'
