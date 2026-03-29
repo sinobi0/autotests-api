@@ -55,7 +55,17 @@ jobs:
       - name: Run API tests with pytest and generate Allure results
         run: |
           pytest -m regression --alluredir=allure-results --numprocesses 2  # Запускаем тесты, отмеченные как "regression", генерируем результаты для Allure
+      # 8. Шаг для сохранения артефакта allure отчета в конце выполнения тестов
+      - name: Save artifact allure results
+        uses: actions/upload-artifact@v4
+        with:
+          name: allure-report
+          path: allure-results
 
+  publish-report:
+    needs: run-tests
+    runs-on: ubuntu-latest  # Указываем, что тесты будут запускаться на последней версии Ubuntu
+    steps:
       # 8. Шаг для получения истории отчётов Allure, если она существует
       - name: Get Allure history
         uses: actions/checkout@v4  # Опять клонируем репозиторий, чтобы получить историю отчётов
