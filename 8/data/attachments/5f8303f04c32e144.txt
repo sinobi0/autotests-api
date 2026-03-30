@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTMwVDIwOjAzOjM4LjYwMDMzNiIsInVzZXJfaWQiOiJmN2ExNjNlYS1iMWUzLTQwMGItYTg0ZC01MTU2MTY5NWQ3YzQifQ.nyQKGU6OEDrvswXJnIwrSmodaZIVDvvEZweb53J0NA4' \
+  -H 'content-length: 386' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Now drive live cut.","maxScore":51,"minScore":5,"description":"Because east five early. Government stop their policy life value. Exist character serious dinner.\nHistory at wind cup thought. Important high get help huge carry book will.","estimatedTime":"4 weeks","previewFileId":"8027d065-010e-4853-8d5f-76b34fd68acc","createdByUserId":"f7a163ea-b1e3-400b-a84d-51561695d7c4"}'

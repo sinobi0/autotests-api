@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTMwVDIwOjAzOjM4Ljg3NDI2NSIsInVzZXJfaWQiOiJjNGFkNTc5NS01ZDE4LTRjNWMtYmZlNC1hZDA3YmI0N2UwZjYifQ.SLxmt27TSrFKmdyc_rdICCcyD2A2LUtreKV0HYg5rxI' \
+  -H 'content-length: 371' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Company example table probably relate three democratic.","maxScore":56,"minScore":8,"description":"Other oil game yard. Four although father. Draw share exactly message. Compare music behind shoulder dinner story realize.","estimatedTime":"4 weeks","previewFileId":"3b152346-b910-4c74-a694-983c3a0af959","createdByUserId":"c4ad5795-5d18-4c5c-bfe4-ad07bb47e0f6"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTMwVDIwOjAzOjM3LjM5MzQxMSIsInVzZXJfaWQiOiJlZWRhZjMyYi1kZDQxLTRmNDYtYWMwMy00ZGFiZTFiZjIyZDAifQ.KAmjBmv9HP9-cV4aNlzGT12kcHbtxKqRbyLsGNpPu9w' \
+  -H 'content-length: 298' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Rule nearly when commercial wife along late.","maxScore":86,"minScore":27,"description":"Address agency condition old. Appear human region yourself.","estimatedTime":"6 weeks","previewFileId":"a72b27fe-ef57-415e-b156-712effbac136","createdByUserId":"eedaf32b-dd41-4f46-ac03-4dabe1bf22d0"}'

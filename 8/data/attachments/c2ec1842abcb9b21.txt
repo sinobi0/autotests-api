@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTMwVDIwOjAzOjM3LjY2NjU2MiIsInVzZXJfaWQiOiIzMzM0NzkwZC04ZDI5LTQ0ZWUtYWI4My0xNjVhNDdkNmJhZTUifQ.KghJEmv-FwOhgahPIRR0Ds2FkNRBAZJ-A4vOGaYVOqI' \
+  -H 'content-length: 405' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Range analysis friend course.","maxScore":54,"minScore":20,"description":"Value discuss speech few pressure price. Lead clearly ground hope seem evening. Approach system leg provide sure.\nPurpose street choose home water prove side. Drug teacher measure.","estimatedTime":"5 weeks","previewFileId":"df0d82a2-06b7-48c4-a078-aa1895cb99e5","createdByUserId":"3334790d-8d29-44ee-ab83-165a47d6bae5"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTMwVDIwOjAzOjM1LjAyNDA1NSIsInVzZXJfaWQiOiIzZTlkOTY5My01MDllLTQxZWEtODAyYi0wNjc2YjA5YmFkMzYifQ.kV6vzO0dZOqKJJNMnhrx1LUXY5Krdw9vpmtm0wKK-3k' \
+  -H 'content-length: 383' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Even class if time.","maxScore":89,"minScore":26,"description":"Value sport federal performance million. Couple majority push just him wind entire.\nNo else place recently blue fill cup. Room hard mind amount. Piece officer fly head.","estimatedTime":"6 weeks","previewFileId":"16126f9c-de8d-406b-968d-f101957a1915","createdByUserId":"3e9d9693-509e-41ea-802b-0676b09bad36"}'

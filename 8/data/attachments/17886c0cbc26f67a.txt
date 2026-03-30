@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTMwVDIwOjAzOjM3LjY2NjU2MiIsInVzZXJfaWQiOiIzMzM0NzkwZC04ZDI5LTQ0ZWUtYWI4My0xNjVhNDdkNmJhZTUifQ.KghJEmv-FwOhgahPIRR0Ds2FkNRBAZJ-A4vOGaYVOqI' \
+  -H 'content-length: 343' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Want will general design guess.","courseId":"b235e9fc-75d2-4acd-977c-b2e858392414","maxScore":100,"minScore":20,"orderIndex":34,"description":"Carry pick either value individual sort vote. Instead by space science.\nIssue reality no hope. Detail spend series thing even world.\nOut catch particular world.","estimatedTime":"2 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTMwVDIwOjAzOjM5LjgyMjE3NiIsInVzZXJfaWQiOiI3YTgwYTM3ZC1jZGVkLTQxY2UtODc2ZC0wY2Q1YWQ5MGY5MDcifQ.7ahqOT_B8wk9Hq1rs6lBsLSLtB-QxOPRYSNbtg5I7WA' \
+  -H 'content-length: 406' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Remain task especially father.","maxScore":78,"minScore":8,"description":"Pressure remain discussion short ever item serious. Box outside area enough respond seat. Try all defense itself trip stuff particularly.\nGuess describe me writer action feeling he.","estimatedTime":"3 weeks","previewFileId":"c4ab5b41-95f2-47d2-baba-6a5b65f1548d","createdByUserId":"7a80a37d-cded-41ce-876d-0cd5ad90f907"}'

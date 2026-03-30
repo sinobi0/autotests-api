@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/0a0f723c-e561-4802-a655-0cb4972efa46' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTMwVDIwOjAzOjM2LjE2NzIwNSIsInVzZXJfaWQiOiJkNDJkYzJkNi1iNzY2LTQxYzItOWE4MS0yNTc3MTQ2ODdlYjcifQ.Mqcu6BS7696xnOGWaXczmKrGwWcUejJSIw8F49gIDQ0' \
+  -H 'content-length: 290' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Rich will life range.","maxScore":68,"minScore":19,"description":"Participant Mrs commercial gas to leader age.\nStuff drop treat cause view rich. Indeed theory ok question add at. Politics take article some finally enter. Simple indicate quickly cold.","estimatedTime":"2 weeks"}'

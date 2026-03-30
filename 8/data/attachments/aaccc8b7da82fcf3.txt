@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTMwVDIwOjAzOjM2LjQ0MTcwMCIsInVzZXJfaWQiOiJhNGIzYzM4Ny1hNTVkLTRkMzQtYmFjNy01NTk4ZmE1OWE3ZGIifQ.0eyFJk1wK9RyNA05Mh7KkMl9LkIPaXTzs08jwqjjbv0' \
+  -H 'content-length: 400' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Window quite force somebody.","maxScore":69,"minScore":10,"description":"Book capital few himself vote growth much. Race leader happen side daughter.\nParticipant chair central hair work control picture. Personal act human actually four few next bar.","estimatedTime":"8 weeks","previewFileId":"0f2de622-b528-4a89-8490-a48d99f150f3","createdByUserId":"a4b3c387-a55d-4d34-bac7-5598fa59a7db"}'
