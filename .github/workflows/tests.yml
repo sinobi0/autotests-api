@@ -96,7 +96,7 @@ jobs:
     needs: run-tests
     runs-on: ubuntu-latest  # Указываем, что тесты будут запускаться на последней версии Ubuntu
     steps:
-      # 1. Шаг для получения загруженного артефакта allure отчета
+      # 1.Шаг для получения загруженного артефакта allure отчета
       - name: Download artifact allure-report
         uses: actions/download-artifact@v4
         with:
