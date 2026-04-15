@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTE1VDE5OjUyOjMyLjkwOTE2OSIsInVzZXJfaWQiOiI1OGU0OTY1Mi1mMDlmLTRjYTEtODU2My05NGZlNTYyOGI5ZjQifQ.58J7jK6KHz99hWeyW8_tKAQaa9ICF88rdWSin7wO-Fg' \
+  -H 'content-length: 425' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Amount national administration name wife measure might.","maxScore":83,"minScore":10,"description":"Pressure candidate five only them unit. Nation daughter bring leave expert development or.\nEnvironmental will reveal onto similar turn building. Well collection benefit each.","estimatedTime":"6 weeks","previewFileId":"8c508dd9-5b47-4d8d-b30d-0ea3607b9700","createdByUserId":"58e49652-f09f-4ca1-8563-94fe5628b9f4"}'

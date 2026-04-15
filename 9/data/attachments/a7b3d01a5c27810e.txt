@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTE1VDE5OjUyOjMzLjIxNzU1NCIsInVzZXJfaWQiOiJmZjg4YjU2NS1lZjUzLTQ1OTctODZkNy04OTg4N2ZiNDRhOGUifQ.U_AjO8Qcmup3ERFI1f9D1KCvmnYe2yt-wl_dxRjGoTs' \
+  -H 'content-length: 420' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Daughter push color interesting trade fire most.","maxScore":59,"minScore":21,"description":"Focus religious your yet position. End benefit dinner response question change. Seem office break population.\nWhole above option step interview. As represent half price middle.","estimatedTime":"1 weeks","previewFileId":"83dfc98d-3fc7-4b93-9a49-2173f1c563a6","createdByUserId":"ff88b565-ef53-4597-86d7-89887fb44a8e"}'

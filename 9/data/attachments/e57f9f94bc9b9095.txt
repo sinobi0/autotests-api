@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/f26c8ec6-978b-4bae-afc3-19d0ab023d70' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTE1VDE5OjUyOjMxLjU1NTIzMiIsInVzZXJfaWQiOiIwZmFlMmEzNy00YjY0LTQ3MGYtODYxOC0wMDNkMWRmNDQ0YmIifQ.XEQyAqeZ101ZB4HSLnbqVLqD1-HP3XIH19XfmBSj85o' \
+  -H 'content-length: 306' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Partner return model would side occur management candidate.","maxScore":86,"minScore":20,"description":"Already evening method cultural statement. Stop guy contain. Realize society art sister either.\nThroughout who send reach so pressure. Return position physical Mr.","estimatedTime":"7 weeks"}'

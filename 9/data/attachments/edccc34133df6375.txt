@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTE1VDE5OjUyOjM0LjU2MTU2NCIsInVzZXJfaWQiOiI4MTZhZTYwZC0yNGZmLTQ4ZmYtOWZkZi04NmY5Y2ZhYTdiODYifQ.1Pm3MPz60KqeOO-mGTOmQHhTGZp9DFWjlEQT7ok8I1w' \
+  -H 'content-length: 309' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Interesting know several author.","courseId":"f206142c-f08e-4f0f-a4cd-d3ffdc43617a","maxScore":93,"minScore":9,"orderIndex":41,"description":"Newspaper right example full one represent necessary. Experience herself every finally expect eye. Staff above challenge without.","estimatedTime":"7 weeks"}'

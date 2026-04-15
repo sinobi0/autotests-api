@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTE1VDE5OjUyOjMwLjI3MzU4MSIsInVzZXJfaWQiOiJjMDc2MGQ1Yy01YTJiLTRkOTQtYWU2Yy1lYjgyYWUwZDk2NWQifQ.IT1oVdBfkyjADd9ryvhPu0YZf-wbPkKGqftpjJaSDew' \
+  -H 'content-length: 449' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Exactly suddenly figure recently environmental wife hundred education.","maxScore":53,"minScore":23,"description":"Possible former include. Return meeting subject last those if rather.\nSea question reason town. Someone whom report evidence at. Outside behind together character manage door central.","estimatedTime":"6 weeks","previewFileId":"ab3f2878-5360-4885-96fb-85da90705cfd","createdByUserId":"c0760d5c-5a2b-4d94-ae6c-eb82ae0d965d"}'

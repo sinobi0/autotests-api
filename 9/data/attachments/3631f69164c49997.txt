@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTE1VDE5OjUyOjM0LjU2MTU2NCIsInVzZXJfaWQiOiI4MTZhZTYwZC0yNGZmLTQ4ZmYtOWZkZi04NmY5Y2ZhYTdiODYifQ.1Pm3MPz60KqeOO-mGTOmQHhTGZp9DFWjlEQT7ok8I1w' \
+  -H 'content-length: 420' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Then very year add thought debate.","maxScore":94,"minScore":25,"description":"Drug growth show response however. Together officer behind media. Agent common authority should sister. Long early within.\nMiddle although page during. Table perform never other black event.","estimatedTime":"3 weeks","previewFileId":"96c2da00-2e9b-402f-ba67-7231265eee71","createdByUserId":"816ae60d-24ff-48ff-9fdf-86f9cfaa7b86"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/509082e8-3516-4b3c-b400-267192474603' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTE1VDE5OjUyOjMzLjIxNzU1NCIsInVzZXJfaWQiOiJmZjg4YjU2NS1lZjUzLTQ1OTctODZkNy04OTg4N2ZiNDRhOGUifQ.U_AjO8Qcmup3ERFI1f9D1KCvmnYe2yt-wl_dxRjGoTs' \
+  -H 'content-length: 229' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Good do area.","maxScore":69,"minScore":16,"orderIndex":82,"description":"Majority let model box fish dark.\nPage others send item participant. Line huge young. Perhaps leader than authority.","estimatedTime":"7 weeks"}'

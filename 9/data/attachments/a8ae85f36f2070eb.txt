@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTE1VDE5OjUyOjM1LjYwOTIxOSIsInVzZXJfaWQiOiI3ZWNkYWZjYS04ZDczLTQ1YjQtOTJjMS1lYWYzMzQ2OWMzYmMifQ.yS7Qt0h_BKJS_LJQ8SfEGXfuT_yotsIkaGwiFcz2J_8' \
+  -H 'content-length: 431' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Student focus easy control example stock.","maxScore":51,"minScore":24,"description":"Ok store dinner tax admit area. Hundred picture reality once. Budget ten particular crime hard my.\nMany reach what her trade clear. Dog attention live. Then language consider interview property.","estimatedTime":"7 weeks","previewFileId":"86db0c8f-7225-47ce-b68c-f8167f1e1168","createdByUserId":"7ecdafca-8d73-45b4-92c1-eaf33469c3bc"}'

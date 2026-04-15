@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTE1VDE5OjUyOjM0LjI1Mzk3NiIsInVzZXJfaWQiOiI3N2FjMDM3Ny01MTg5LTQ5NjUtYTBhNC04YmMyYWNmMWVlYWMifQ.wGTljJTi33bgUlDYJq1iUS62Ot2OO26G6QGOP4unhuo' \
+  -H 'content-length: 395' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Model history still.","maxScore":65,"minScore":13,"description":"Foreign letter talk stock wide.\nPolitical answer market country last. Shake thing speak wait owner. New test once hospital shoulder serve.\nClearly drop place state everybody how.","estimatedTime":"1 weeks","previewFileId":"772075fe-b8a0-44eb-ab93-a95d17580af8","createdByUserId":"77ac0377-5189-4965-a0a4-8bc2acf1eeac"}'

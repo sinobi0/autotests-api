@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTE1VDE5OjUyOjMxLjU1NTIzMiIsInVzZXJfaWQiOiIwZmFlMmEzNy00YjY0LTQ3MGYtODYxOC0wMDNkMWRmNDQ0YmIifQ.XEQyAqeZ101ZB4HSLnbqVLqD1-HP3XIH19XfmBSj85o' \
+  -H 'content-length: 426' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Region hospital product between.","maxScore":75,"minScore":28,"description":"Team chair price involve finally. Thought really design politics western small do.\nClass which body consumer week on. Long song give cup black good. Her not strategy performance lead wait plant job.","estimatedTime":"4 weeks","previewFileId":"33308b2c-5c80-4369-86d3-f5a1dac6248e","createdByUserId":"0fae2a37-4b64-470f-8618-003d1df444bb"}'
