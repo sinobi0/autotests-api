@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTE1VDE5OjU1OjI2LjA1NjM2NyIsInVzZXJfaWQiOiI5N2Q1MDE0Yi1lZGI5LTQ1MDctOGQ1Yi0yMDYwMWZjMGMxZGUifQ.bh_4M7SGpz6e-c5ux0xOgmRt57t5oLgH7PUwMcRhvaA' \
+  -H 'content-length: 394' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Through interest available student design mention.","courseId":"e68d488c-7b9b-4ce7-8e9f-e005c5109db5","maxScore":59,"minScore":12,"orderIndex":85,"description":"System detail school data to. Loss role concern senior computer. Mother difference fill school show.\nStand democratic high hour. Leg she situation sing quite big pattern. Clear seven know reach.","estimatedTime":"9 weeks"}'

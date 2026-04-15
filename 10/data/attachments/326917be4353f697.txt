@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTE1VDE5OjU1OjI3LjIxNzU5MyIsInVzZXJfaWQiOiI2MzY2YmYzZi1kZjFiLTQ3YWItYWZlZi1jYjY3N2I4Nzg2OTkifQ.FpKsJu2XWuCwUMMTrAnmYge3fqRuR4Wf-ofb0Wtu2FI' \
+  -H 'content-length: 328' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Pattern whole guy trouble coach.","maxScore":72,"minScore":10,"description":"Religious customer free court but. Staff any unit mean. Week art order develop. Time light give bank.","estimatedTime":"7 weeks","previewFileId":"7c6337a8-f7cf-40f7-a620-eb8951d6f988","createdByUserId":"6366bf3f-df1b-47ab-afef-cb677b878699"}'

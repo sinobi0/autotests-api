@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTE1VDE5OjU1OjI1Ljc5NjkwMiIsInVzZXJfaWQiOiJiZWFlMGQ2Ni05ZGJlLTQxYjEtOTQ1My0yNzBkMDAzYTk0NDIifQ.iUe-2KhOf8y2-z_Ji2EhsWL2cEIe9yQXXvT2IGibz2w' \
+  -H 'content-length: 389' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Necessary season both election really.","maxScore":93,"minScore":6,"description":"Through new cover understand court low. Win hard want gun site voice near. Act himself protect add reality focus. Near vote allow conference score nice card.","estimatedTime":"6 weeks","previewFileId":"3d84f4d9-d238-432d-9586-83aa4fb23503","createdByUserId":"beae0d66-9dbe-41b1-9453-270d003a9442"}'

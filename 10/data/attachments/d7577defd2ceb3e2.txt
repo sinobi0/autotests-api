@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTE1VDE5OjU1OjIzLjUzNjgwMiIsInVzZXJfaWQiOiI4NDYwM2MyNC0xMDVkLTQ1YzktYmFiNi00ZDIwOTMxYWRjZWEifQ.SHfi1SyPxwi7Cv6Npm0bv_JpY39Ak9CSFTbY2wSOcbI' \
+  -H 'content-length: 318' \
+  -H 'content-type: application/json' \
+  -d '{"title":"General wall very beyond set.","maxScore":50,"minScore":16,"description":"Marriage mind very music much ok tonight cause. Staff stay become. Carry answer quality throw.","estimatedTime":"4 weeks","previewFileId":"b5573fc5-40c5-43df-950d-522ac193b33c","createdByUserId":"84603c24-105d-45c9-bab6-4d20931adcea"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTE1VDE5OjU1OjI4LjE0MzIzOSIsInVzZXJfaWQiOiJkOGQxOTBiYS0xNDRhLTRiY2YtOWI4Ny0yYzMyMWIzZTkyYmMifQ.w09vzSvsNT-2aP0LNd8lBSIyxZpBFhoPx8SNOnza8bM' \
+  -H 'content-length: 401' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Drop only which during admit image.","maxScore":57,"minScore":10,"description":"Many second for turn focus gas million most. Of new continue. Hundred probably of.\nMake under recently interesting movement doctor. Newspaper wonder create respond major.","estimatedTime":"6 weeks","previewFileId":"5b7f1ec8-343e-4310-bbaf-63e8690a89d6","createdByUserId":"d8d190ba-144a-4bcf-9b87-2c321b3e92bc"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTE1VDE5OjU1OjI0LjYyMzM0NyIsInVzZXJfaWQiOiJiOTgxNTJlNS0zMWUwLTRlYTYtYjliNS1hYzc1MzQ1MGE4ODMifQ.YCT3KHpIjSwrka5KfTJsB8aHECruGTL8xlHA6vCdMks' \
+  -H 'content-length: 332' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Available our pay if almost buy.","maxScore":70,"minScore":26,"description":"Great task now break. Sometimes show these suggest ten visit top. Company him no condition agreement air.","estimatedTime":"8 weeks","previewFileId":"c9375f05-cc61-4747-a85a-35095c90a357","createdByUserId":"b98152e5-31e0-4ea6-b9b5-ac753450a883"}'

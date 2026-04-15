@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTE1VDE5OjU1OjI2LjA1NjM2NyIsInVzZXJfaWQiOiI5N2Q1MDE0Yi1lZGI5LTQ1MDctOGQ1Yi0yMDYwMWZjMGMxZGUifQ.bh_4M7SGpz6e-c5ux0xOgmRt57t5oLgH7PUwMcRhvaA' \
+  -H 'content-length: 395' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Where Congress design company benefit town speak.","maxScore":78,"minScore":3,"description":"Issue prepare budget serious power. Law local inside point.\nInteresting what five down choice. The such grow.\nRate clearly allow. His against defense.","estimatedTime":"2 weeks","previewFileId":"1b25442c-6b42-48b3-a6db-3ccbc3dc63ef","createdByUserId":"97d5014b-edb9-4507-8d5b-20601fc0c1de"}'
