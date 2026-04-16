@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTE2VDE4OjM3OjQ4Ljg1NTg1MSIsInVzZXJfaWQiOiIyZDEwZWExNC1hZGRhLTQ4ZjUtOTFkYS01N2ExZTA3MTdjNDYifQ.thgnHWT5pQRNJjL7OIzq-DNMkS83gnV6RXrhtz4LhYY' \
+  -H 'content-length: 355' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Join bag energy white.","maxScore":52,"minScore":16,"description":"Produce hear care series stand. Reality decision third too several.\nPm those just yard toward just century. Wide fight recently how ball.","estimatedTime":"2 weeks","previewFileId":"d1a8bde1-870a-4266-8fda-771ffa7e6929","createdByUserId":"2d10ea14-adda-48f5-91da-57a1e0717c46"}'

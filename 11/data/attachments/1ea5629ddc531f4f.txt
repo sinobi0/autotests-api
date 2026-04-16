@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTE2VDE4OjM3OjUwLjIxODE3NyIsInVzZXJfaWQiOiIyNjAyMWNjYS1iZWQ0LTRhZDUtYjI0Ny00MTljMTkwN2Q2YWQifQ.brY9d3S8rpeKworajdinaygMwB7i998Vmc7x2YYzBZw' \
+  -H 'content-length: 402' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Among season agreement story create military.","maxScore":71,"minScore":29,"description":"Section identify than simply memory population. Laugh theory cup beautiful address likely live.\nWonder former top instead such. Area sit message sometimes under.","estimatedTime":"4 weeks","previewFileId":"379db108-f549-4eb8-83b2-994eef4fb9a1","createdByUserId":"26021cca-bed4-4ad5-b247-419c1907d6ad"}'

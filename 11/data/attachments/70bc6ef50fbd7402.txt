@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTE2VDE4OjM3OjUyLjkzMTkyMCIsInVzZXJfaWQiOiIxNzZmNDA1ZC03ZjYzLTRmOTYtOGU4Ny0wNWZkYjJhY2IzYmEifQ.7UPLirKeR6OR6gS9veKAutqRaJ5S4jewNchBDWndm4g' \
+  -H 'content-length: 317' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Never stop first trade start by.","maxScore":90,"minScore":25,"description":"Father amount protect front west place every answer. Affect land price edge. My will down.","estimatedTime":"5 weeks","previewFileId":"801919a6-f8b4-45e6-8e7f-ae31d142f9a1","createdByUserId":"176f405d-7f63-4f96-8e87-05fdb2acb3ba"}'

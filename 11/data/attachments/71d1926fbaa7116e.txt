@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTE2VDE4OjM3OjQ3LjU2ODYwMiIsInVzZXJfaWQiOiJmZWEzMGQxYy1kYzliLTRhNzUtOTc2Mi03MDczNGU5MTRiNjQifQ.71sdjSG6K5Hf7sQtixwpgTcYBy4rkSYBvWL_MkkU2lw' \
+  -H 'content-length: 332' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Bill same wear similar.","maxScore":57,"minScore":10,"description":"Audience under skin. Remain beyond test perhaps ability fly almost candidate. What attention again against myself.","estimatedTime":"7 weeks","previewFileId":"e4067510-913a-47d0-9963-dddddcec4e89","createdByUserId":"fea30d1c-dc9b-4a75-9762-70734e914b64"}'

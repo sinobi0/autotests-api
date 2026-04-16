@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/339c2fbb-d60a-4558-9575-df0ead6fcf9a' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTE2VDE4OjM3OjQ4Ljg1NTg1MSIsInVzZXJfaWQiOiIyZDEwZWExNC1hZGRhLTQ4ZjUtOTFkYS01N2ExZTA3MTdjNDYifQ.thgnHWT5pQRNJjL7OIzq-DNMkS83gnV6RXrhtz4LhYY' \
+  -H 'content-length: 208' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Likely difficult office positive.","maxScore":80,"minScore":3,"description":"Green use eight step. Executive than over product control. Certain affect president how fact.","estimatedTime":"2 weeks"}'

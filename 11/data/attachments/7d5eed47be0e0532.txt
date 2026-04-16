@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTE2VDE4OjM3OjUxLjU3MDk4MCIsInVzZXJfaWQiOiI1MDI1YzlhNi1mY2FlLTQyNTktOGM3Mi00MDE0Y2UwMDJlYjYifQ.SJmyeCyU2SYZtkml2AupbCLt0xYnl8WqrGb45QM8HHw' \
+  -H 'content-length: 442' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Administration goal base trial figure voice well money.","maxScore":59,"minScore":11,"description":"Start true edge message. Piece really late skill. Officer serve treatment charge growth use voice these.\nHouse tonight goal yeah. Choice miss include. Society attention remain partner us son.","estimatedTime":"7 weeks","previewFileId":"f2c84e43-9df0-4bee-9db9-445b9c783ecb","createdByUserId":"5025c9a6-fcae-4259-8c72-4014ce002eb6"}'

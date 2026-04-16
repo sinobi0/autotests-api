@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTE2VDE4OjM3OjUwLjUyNTg3OSIsInVzZXJfaWQiOiI5NjA3MTRhOC01MDY5LTQxYWUtOWJiNy02ZmQ5YTdjMzFhMGQifQ.9mBQTqFGFZp2svhW0UED-elhkmPIsq8u-QX8PdKdSg0' \
+  -H 'content-length: 299' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Section join network discuss.","maxScore":54,"minScore":20,"description":"Walk suddenly teacher kind community. Event customer many likely game week.","estimatedTime":"5 weeks","previewFileId":"6d90265f-3241-4887-93ed-4d19af94c860","createdByUserId":"960714a8-5069-41ae-9bb7-6fd9a7c31a0d"}'
