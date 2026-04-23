@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTIzVDE5OjQxOjQ3Ljc0NzY5NCIsInVzZXJfaWQiOiI4N2UzZDAzMC03MWVkLTQyOGItOWYwOC1mMjU1NWQ5NGFkM2UifQ.5q9qYQ9ZiH_LgPQmWqk1TcR-MD-OgIGn2EEQMJyPjmg' \
+  -H 'content-length: 371' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Yard after well security business.","maxScore":99,"minScore":2,"description":"Wear prepare kitchen gun.\nThough brother blue important play several. Trip safe huge soon feel player chair.\nSing stand lead piece fall term.","estimatedTime":"3 weeks","previewFileId":"7ab3432f-a5ae-4820-a76d-3838b4e39035","createdByUserId":"87e3d030-71ed-428b-9f08-f2555d94ad3e"}'

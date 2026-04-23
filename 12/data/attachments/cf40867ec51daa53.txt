@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/e85d1e72-6b36-4bdd-b52d-5e004268ce02' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTIzVDE5OjQxOjQ3LjAyMDEzOCIsInVzZXJfaWQiOiJhN2E0MTliMC02NWViLTQwZTUtYTBhMC01YjIzMTA3ZDhlMzQifQ.7aGI62UktgiH5_bAmF5Eg7ZkIvm35Ao019v3wfruPqA' \
+  -H 'content-length: 274' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Situation miss wrong job build.","maxScore":98,"minScore":18,"description":"Agree sit sense without reach size. Build air car international.\nLot might house up laugh white. Reality almost suggest suggest discuss simple certainly civil.","estimatedTime":"4 weeks"}'

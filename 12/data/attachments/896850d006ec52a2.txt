@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTIzVDE5OjQxOjUwLjc4NTIxNCIsInVzZXJfaWQiOiIzMzkzZjQ2Mi1kNmUzLTRkMGItOTVjNy1hYTBlYzc4NGNjYWYifQ.W5PhczBa3gRihC3B7GM2XnftLaKqPLxDKThO8VsOfHs' \
+  -H 'content-length: 348' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Large however have south whether oil.","courseId":"ce5a190c-cd4f-43dd-9e62-801a4f840fd0","maxScore":63,"minScore":25,"orderIndex":31,"description":"Practice four through. Maybe personal above world.\nOrder tough east ever some. Possible either garden never PM arrive. Community tree fight line from understand.","estimatedTime":"4 weeks"}'

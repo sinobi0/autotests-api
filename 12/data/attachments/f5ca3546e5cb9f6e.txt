@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTIzVDE5OjQxOjQ2LjMzMTU0NyIsInVzZXJfaWQiOiJkZGM3OGM0OS1mM2Q1LTRhM2EtOTcwMC1lOTkwZGY4OTc4NGQifQ.bekP_2wNM3NCX5c8T3eYoegR8NMzCs9wRB1tNCbAfJ8' \
+  -H 'content-length: 414' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Product tax simple wish recent cause book.","maxScore":60,"minScore":25,"description":"Network first environment indeed if. Performance speak itself plan common. Statement front national.\nOrganization simple paper. Region place fear film evidence defense contain.","estimatedTime":"5 weeks","previewFileId":"6d02b2ff-ff33-4518-8b71-4226f5490b90","createdByUserId":"ddc78c49-f3d5-4a3a-9700-e990df89784d"}'

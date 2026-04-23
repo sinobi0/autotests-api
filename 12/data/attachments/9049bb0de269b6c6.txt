@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTIzVDE5OjQxOjQ4LjM5MTcyNSIsInVzZXJfaWQiOiJiN2JiM2JmYy1lMGM2LTRkMTktODZmNS1hOTEwNDVhY2NhZjEifQ._NGcHWoiRMaSaJXK8O7TE1TCwXnHMz6sV-qdz75XmPI' \
+  -H 'content-length: 429' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Technology wind letter huge debate identify.","maxScore":89,"minScore":17,"description":"Stay voice young different start. Large president despite daughter crime fill left day.\nMention effect site sign. Really hear about four education. Analysis black suddenly able family rock.","estimatedTime":"9 weeks","previewFileId":"56c9d7d0-6180-4f67-b993-8e5447ff9ce2","createdByUserId":"b7bb3bfc-e0c6-4d19-86f5-a91045accaf1"}'

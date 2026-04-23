@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTIzVDE5OjQxOjQ3LjAyMDEzOCIsInVzZXJfaWQiOiJhN2E0MTliMC02NWViLTQwZTUtYTBhMC01YjIzMTA3ZDhlMzQifQ.7aGI62UktgiH5_bAmF5Eg7ZkIvm35Ao019v3wfruPqA' \
+  -H 'content-length: 411' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Green stay song.","maxScore":52,"minScore":22,"description":"Black store arrive performance job cover pressure. Threat practice edge begin source effect shoulder.\nWoman summer sense method. Gas himself song smile degree only. Realize news song break age every.","estimatedTime":"4 weeks","previewFileId":"70c5fcc0-708e-413f-bb35-599c01182897","createdByUserId":"a7a419b0-65eb-40e5-a0a0-5b23107d8e34"}'

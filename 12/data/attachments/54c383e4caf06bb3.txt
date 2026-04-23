@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTIzVDE5OjQxOjQ4LjM5MTcyNSIsInVzZXJfaWQiOiJiN2JiM2JmYy1lMGM2LTRkMTktODZmNS1hOTEwNDVhY2NhZjEifQ._NGcHWoiRMaSaJXK8O7TE1TCwXnHMz6sV-qdz75XmPI' \
+  -H 'content-length: 327' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Hear people she yard south newspaper outside.","courseId":"71d805cf-8b21-417c-bf29-654407b1b17c","maxScore":52,"minScore":22,"orderIndex":88,"description":"Pm their total decade. Tree shake truth man.\nPretty matter face shoulder. People bag us play return. Draw peace try have report why.","estimatedTime":"1 weeks"}'

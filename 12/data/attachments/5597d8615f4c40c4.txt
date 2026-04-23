@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTIzVDE5OjQxOjUwLjc4NTIxNCIsInVzZXJfaWQiOiIzMzkzZjQ2Mi1kNmUzLTRkMGItOTVjNy1hYTBlYzc4NGNjYWYifQ.W5PhczBa3gRihC3B7GM2XnftLaKqPLxDKThO8VsOfHs' \
+  -H 'content-length: 424' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Change fire yeah become analysis sort unit.","maxScore":55,"minScore":15,"description":"Action treat to computer age wall. Well yeah discussion hit prepare. Behavior since quite parent.\nState politics wish occur quickly more. Me tonight they explain. Unit hair season seek.","estimatedTime":"7 weeks","previewFileId":"2ac6d454-38b8-4537-bd8e-a890c001c026","createdByUserId":"3393f462-d6e3-4d0b-95c7-aa0ec784ccaf"}'

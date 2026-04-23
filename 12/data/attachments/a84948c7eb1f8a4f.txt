@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTIzVDE5OjQxOjUxLjA5Mzg2NSIsInVzZXJfaWQiOiJkNDE0NjkzNy1hODI4LTQ5ZGUtYTVlNS1hYTFmYTQ4ZDk1YTYifQ.fKLqcT2xXalTrUgc-2QdiGSEhgjBYBDJ0DEwxofy6mw' \
+  -H 'content-length: 340' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Measure class wish story study.","maxScore":59,"minScore":8,"description":"Often street visit lot run. Fear seat modern individual ability. Including instead brother air himself item decade.","estimatedTime":"4 weeks","previewFileId":"bb57b1b2-b4d1-4c11-85b1-8dc667bb4f02","createdByUserId":"d4146937-a828-49de-a5e5-aa1fa48d95a6"}'

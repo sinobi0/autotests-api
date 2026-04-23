@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTIzVDE5OjQxOjQ5LjczMzg1OSIsInVzZXJfaWQiOiI4MTMzN2Y4Zi1mOGQ4LTQ1YTEtOGZkZS0zZjdmMzEyZWRmNTYifQ.UaL8b3e14Xga1tcmdHZ-k80w3CGqVvwlcZC-zPZcGjU' \
+  -H 'content-length: 310' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Out light final technology lay however.","courseId":"d7bff54f-a4a3-477a-83f9-3d00bdc7d524","maxScore":92,"minScore":26,"orderIndex":16,"description":"South focus fine heart power. Where agency see face stock feel all. Action stand dark including effect too feeling figure.","estimatedTime":"7 weeks"}'

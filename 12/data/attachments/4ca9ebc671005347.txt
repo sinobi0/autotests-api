@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTIzVDE5OjQxOjQ5LjczMzg1OSIsInVzZXJfaWQiOiI4MTMzN2Y4Zi1mOGQ4LTQ1YTEtOGZkZS0zZjdmMzEyZWRmNTYifQ.UaL8b3e14Xga1tcmdHZ-k80w3CGqVvwlcZC-zPZcGjU' \
+  -H 'content-length: 368' \
+  -H 'content-type: application/json' \
+  -d '{"title":"During while wall left manager animal.","maxScore":97,"minScore":11,"description":"Apply majority buy source another. Recently send beyond. Practice adult statement by better.\nExample serve second. Goal economy argue.","estimatedTime":"6 weeks","previewFileId":"3e3b11c6-db02-4f31-8a41-2c07e7f80953","createdByUserId":"81337f8f-f8d8-45a1-8fde-3f7f312edf56"}'

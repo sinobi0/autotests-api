@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/1f6a6aee-88c5-4eb6-9a2b-bc2f44091b58' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTIzVDE5OjQxOjQ5LjQyNjQzNiIsInVzZXJfaWQiOiI2MzM5MWI1My0wMTRjLTRiMzctOThjMi04OTkzZjViNzFlMWYifQ.MUZT5jjQpCt79pu5HvHzHU2iVyK6V3_TpWdiuuzjwa4' \
+  -H 'content-length: 290' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Space American something sense interview way.","maxScore":67,"minScore":8,"orderIndex":35,"description":"Rate follow appear beautiful store may. Mind American over feeling point million laugh floor. Hear direction picture. Carry heavy foreign foreign.","estimatedTime":"10 weeks"}'
